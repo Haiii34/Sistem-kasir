@@ -1,0 +1,11 @@
+READ AND WRITE "mie goreng" with string
+READ AND WRITE "jumlah" with number
+READ AND WRITE "total" with number
+STORE "total" with CALCULATE "mie goreng" multipy by "jumlah"
+PRINT "total"
+READ AND WRITE "jumlah uang pembeli" with number
+IF "jumlah uang pembel" more than or equal "total"
+    READ AND WRITE "kembalian" with number
+    PRINT "kembalian"
+ELSE
+    PRINT "Maaf,uang anda tidak cukup"
